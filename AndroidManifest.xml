@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appfour.boundservicestest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.appfour.boundservicestest.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.appfour.boundservicestest.Service1"
+            android:exported="false"
+            android:process=":Service1" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service2"
+            android:exported="false"
+            android:process=":Service2" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service3"
+            android:exported="false"
+            android:process=":Service3" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service4"
+            android:exported="false"
+            android:process=":Service4" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service5"
+            android:exported="false"
+            android:process=":Service5" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service6"
+            android:exported="false"
+            android:process=":Service6" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service7"
+            android:exported="false"
+            android:process=":Service7" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service8"
+            android:exported="false"
+            android:process=":Service8" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service9"
+            android:exported="false"
+            android:process=":Service9" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service10"
+            android:exported="false"
+            android:process=":Service10" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service11"
+            android:exported="false"
+            android:process=":Service11" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service12"
+            android:exported="false"
+            android:process=":Service12" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service13"
+            android:exported="false"
+            android:process=":Service13" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service14"
+            android:exported="false"
+            android:process=":Service14" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service15"
+            android:exported="false"
+            android:process=":Service15" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service16"
+            android:exported="false"
+            android:process=":Service16" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service17"
+            android:exported="false"
+            android:process=":Service17" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service18"
+            android:exported="false"
+            android:process=":Service18" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service19"
+            android:exported="false"
+            android:process=":Service19" >
+        </service>
+        <service
+            android:name="com.appfour.boundservicestest.Service20"
+            android:exported="false"
+            android:process=":Service20" >
+        </service>
+    </application>
+</manifest>
