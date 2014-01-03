@@ -65,6 +65,15 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	@Override
+	protected void onDestroy() {
+		Log.d(Constants.TAG, "MainActivity.onDestroy()");
+		for (ServiceConnection conn : serviceConnections) {
+			unbindService(conn);
+		}
+		super.onDestroy();
+	}
+
 	private void updateLabel() {
 		if (services.size() == SERVICE_COUNT) {
 			getLabel().setText("All services connected");
