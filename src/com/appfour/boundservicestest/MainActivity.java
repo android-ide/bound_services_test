@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Log.d(Constants.TAG, "MainActivity.onCreate()");
 		setContentView(R.layout.activity_main);
 
 		ServiceConnection connection = new ServiceConnection() {
